@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Register Your Bakery - Elliott's Bakery</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+
+    <header>
+
+        <nav class="nav-bar">
+
+            <a href="index.html" class="logo">
+                🧁 Elliott's Bakery
+            </a>
+
+            <button
+                class="menu-btn"
+                onclick="toggleMenu()"
+                aria-label="Open navigation menu"
+            >
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+
+                <li>
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="index.html#services">
+                        Services
+                    </a>
+                </li>
+
+                <li>
+                    <a href="index.html#contact">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <!-- =========================
+         BAKERY REGISTRATION
+    ========================== -->
+
+    <main>
+
+        <section class="account-page">
+
+            <div class="account-form-container">
+
+                <div class="bakery-form-icon">
+                    🧁
+                </div>
+
+                <h1>
+                    Register Your Bakery
+                </h1>
+
+                <p>
+                    Create your bakery account and start
+                    showcasing your pastries to customers.
+                </p>
+
+
+                <form id="bakeryForm">
+
+                    <!-- Bakery Name -->
+
+                    <div class="form-group">
+
+                        <label for="bakeryName">
+                            Bakery Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="bakeryName"
+                            name="bakeryName"
+                            placeholder="e.g. Sweet Treats Bakery"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- Owner Name -->
+
+                    <div class="form-group">
+
+                        <label for="ownerName">
+                            Owner's Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="ownerName"
+                            name="ownerName"
+                            placeholder="Enter owner's name"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- Email -->
+
+                    <div class="form-group">
+
+                        <label for="bakeryEmail">
+                            Email Address
+                        </label>
+
+                        <input
+                            type="email"
+                            id="bakeryEmail"
+                            name="bakeryEmail"
+                            placeholder="bakery@example.com"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- Phone -->
+
+                    <div class="form-group">
+
+                        <label for="bakeryPhone">
+                            Phone Number
+                        </label>
+
+                        <input
+                            type="tel"
+                            id="bakeryPhone"
+                            name="bakeryPhone"
+                            placeholder="Enter bakery phone number"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- Password -->
+
+                    <div class="form-group">
+
+                        <label for="bakeryPassword">
+                            Password
+                        </label>
+
+                        <input
+                            type="password"
+                            id="bakeryPassword"
+                            name="bakeryPassword"
+                            placeholder="Create a password"
+                            minlength="8"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- Location -->
+
+                    <div class="form-group">
+
+                        <label for="bakeryLocation">
+                            Bakery Location
+                        </label>
+
+                        <input
+                            type="text"
+                            id="bakeryLocation"
+                            name="bakeryLocation"
+                            placeholder="e.g. Accra, Ghana"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- Bakery Description -->
+
+                    <div class="form-group">
+
+                        <label for="bakeryDescription">
+                            About Your Bakery
+                        </label>
+
+                        <textarea
+                            id="bakeryDescription"
+                            name="bakeryDescription"
+                            placeholder="Tell customers about your bakery..."
+                            rows="5"
+                        ></textarea>
+
+                    </div>
+
+
+                    <!-- Bakery Image -->
+
+                    <div class="form-group">
+
+                        <label for="bakeryImage">
+                            Bakery Image
+                        </label>
+
+                        <input
+                            type="file"
+                            id="bakeryImage"
+                            name="bakeryImage"
+                            accept="image/*"
+                        >
+
+                    </div>
+
+
+                    <!-- Submit -->
+
+                    <button
+                        type="submit"
+                        class="account-submit"
+                    >
+                        Create Bakery Account
+                    </button>
+
+                </form>
+
+
+                <p class="form-footer">
+
+                    Already have a bakery account?
+
+                    <a href="#">
+                        Log in
+                    </a>
+
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- Customer option -->
+
+        <section class="alternative-account">
+
+            <h2>
+                Are you a customer?
+            </h2>
+
+            <p>
+                You can create a customer account instead.
+            </p>
+
+            <a
+                href="CUSTOMER.html"
+                class="account-btn"
+            >
+                Sign Up as Customer
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <p>
+            © Elliott's Bakery 2026.
+            All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

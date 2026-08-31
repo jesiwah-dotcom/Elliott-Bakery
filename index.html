@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Elliott's Bakery</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- =========================
+         HEADER / NAVIGATION
+    ========================== -->
+
+    <header>
+
+        <nav class="nav-bar">
+
+            <a href="#home" class="logo">
+                Elliott's Bakery
+            </a>
+
+            <button
+                class="menu-btn"
+                onclick="toggleMenu()"
+                aria-label="Open menu"
+            >
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+
+                <li>
+                    <a href="#home">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#order">
+                        Order
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#design">
+                        Design
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#contact">
+                        Contact
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        href="#accounts"
+                        class="account-link"
+                    >
+                        Account
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <!-- =========================
+         HERO
+    ========================== -->
+
+    <section
+        class="hero"
+        id="home"
+    >
+
+        <div class="hero-content">
+
+            <h1>
+                Welcome to Elliott's Bakery
+            </h1>
+
+            <p>
+                Create an account to buy and sell pastries,
+                make reservations, place orders and create
+                your own custom-designed pastries.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a
+                    href="#accounts"
+                    class="btn"
+                >
+                    Get Started
+                </a>
+
+                <a
+                    href="#services"
+                    class="btn btn-outline"
+                >
+                    Our Services
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SERVICES
+    ========================== -->
+
+    <section
+        class="services"
+        id="services"
+    >
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>
+                    Our Services
+                </h2>
+
+                <p>
+                    What we can do for you
+                </p>
+
+            </div>
+
+
+            <div class="service-container">
+
+                <!-- SERVICE 1 -->
+
+                <div class="service-card">
+
+                    <div class="service-icon">
+                        🧁
+                    </div>
+
+                    <h3>
+                        Buy Pastries
+                    </h3>
+
+                    <p>
+                        Discover cakes, cupcakes, bread,
+                        doughnuts and other delicious pastries.
+                    </p>
+
+                </div>
+
+
+                <!-- SERVICE 2 -->
+
+                <div class="service-card">
+
+                    <div class="service-icon">
+                        🎂
+                    </div>
+
+                    <h3>
+                        Custom Designs
+                    </h3>
+
+                    <p>
+                        Create a custom pastry design
+                        for birthdays, weddings and events.
+                    </p>
+
+                </div>
+
+
+                <!-- SERVICE 3 -->
+
+                <div class="service-card">
+
+                    <div class="service-icon">
+                        📅
+                    </div>
+
+                    <h3>
+                        Event Reservations
+                    </h3>
+
+                    <p>
+                        Make reservations and plan your
+                        bakery needs for special occasions.
+                    </p>
+
+                </div>
+
+
+                <!-- SERVICE 4 -->
+
+                <div class="service-card">
+
+                    <div class="service-icon">
+                        🏪
+                    </div>
+
+                    <h3>
+                        Sell Pastries
+                    </h3>
+
+                    <p>
+                        Bakery owners can create an account
+                        and showcase their products.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         ACCOUNTS
+    ========================== -->
+
+    <section
+        class="accounts"
+        id="accounts"
+    >
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>
+                    Create an Account
+                </h2>
+
+                <p>
+                    Choose how you want to use
+                    Elliott's Bakery.
+                </p>
+
+            </div>
+
+
+            <div class="account-container">
+
+                <!-- CUSTOMER -->
+
+                <div class="account-card">
+
+                    <div class="account-icon">
+                        👤
+                    </div>
+
+                    <h2>
+                        Customer
+                    </h2>
+
+                    <p>
+                        Create a customer account to buy
+                        pastries, make reservations and
+                        order custom-designed treats.
+                    </p>
+
+                    <a
+                        href="CUSTOMER.html"
+                        class="account-btn"
+                    >
+                        Sign Up as Customer
+                    </a>
+
+                </div>
+
+
+                <!-- BAKERY -->
+
+                <div class="account-card bakery-account">
+
+                    <div class="account-icon">
+                        🧁
+                    </div>
+
+                    <h2>
+                        Bakery
+                    </h2>
+
+                    <p>
+                        Register your bakery to sell
+                        pastries and showcase your products
+                        to customers.
+                    </p>
+
+                    <a
+                        href="BAKERY.html"
+                        class="account-btn"
+                    >
+                        Register Your Bakery
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         ORDER
+    ========================== -->
+
+    <section
+        class="order"
+        id="order"
+    >
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>
+                    Order Your Favorite Pastries
+                </h2>
+
+                <p>
+                    Delicious treats are just a few clicks away.
+                </p>
+
+            </div>
+
+
+            <div class="order-content">
+
+                <p>
+                    Browse pastries from registered bakeries,
+                    choose your favorite products and place
+                    your order.
+                </p>
+
+                <a
+                    href="CUSTOMER.html"
+                    class="btn"
+                >
+                    Start Ordering
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         CUSTOM DESIGN
+    ========================== -->
+
+    <section
+        class="design"
+        id="design"
+    >
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>
+                    Custom Pastry Design
+                </h2>
+
+                <p>
+                    Have something special in mind?
+                </p>
+
+            </div>
+
+
+            <div class="design-content">
+
+                <p>
+                    Tell us what you want and create
+                    a pastry designed especially for
+                    your event.
+                </p>
+
+                <a
+                    href="CUSTOMER.html"
+                    class="btn"
+                >
+                    Create Your Design
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         CONTACT
+    ========================== -->
+
+    <section
+        class="contact"
+        id="contact"
+    >
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>
+                    Contact Us
+                </h2>
+
+                <p>
+                    Have a question? We'd love to hear from you.
+                </p>
+
+            </div>
+
+
+            <div class="contact-info">
+
+                <p>
+                    📧
+                    <strong>Email:</strong>
+
+                    <a href="mailto:elliotsbakery@example.com">
+                        elliotsbakery@example.com
+                    </a>
+                </p>
+
+
+                <p>
+                    📞
+                    <strong>Phone:</strong>
+
+                    +233 XX XXX XXXX
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <p>
+            © Elliott's Bakery 2026.
+            All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- =========================
+         JAVASCRIPT
+    ========================== -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

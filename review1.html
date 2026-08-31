@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Order</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+<header>
+
+        <nav class="nav-bar">
+
+            <a href="#home" class="logo">
+                Elliott's Bakery-Review
+            </a>
+
+            <button
+                class="menu-btn"
+                onclick="toggleMenu()"
+                aria-label="Open menu"
+            >
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+
+               <li>
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="index.html">
+                        Design
+                    </a>
+                </li>
+
+                <li>
+                    <a href="index.html">
+                        Contact
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        href="#accounts"
+                        class="account-link"
+                    >
+                        Account
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+	 <!--  Buttons -->
+
+        <div class="post-actions">
+         <button onclick="showReviewBox()">
+                💬 Comment
+            </button>
+       
+        </div>
+	
+	<!--Reiew Box -->
+
+        <div id="reviewBox" style="display: none;">
+            <input
+                id="reviewInput"
+                placeholder="Add a review..."
+            >
+            <button onclick="addReview()">
+                Post
+            </button>
+        </div>
+		
+	<!-- Reviews -->
+
+        <div id="reviews" class="reviews">
+            <div class="review">
+                <b>Mary Araba</b>
+                <span>:I love the macarons  ★ ★ ★ ★ ★</span>
+            </div>
+
+            <div class="review">
+                <b>James Darwin</b>
+                <span>Fast deliveries and the food is delicious ★★★★☆</span>
+            </div>
+
+            <div class="review">
+                <b>May James</b>
+                <span>My delivery was late but it was worth waiting for ★ ★ ★ ★ ★</span>
+            </div>
+
+            <div class="review">
+                <b>Elliot Sedro</b>
+                <span>The food is very good and the customer service is good ★ ★ ★ ★ ★</span>
+            </div>
+			
+			<div class="review">
+                <b>Bliss Bakery</b>
+                <span>Exceptional ★ ★ ★ ★ ★</span>
+            </div>
+
+        </div>
+		
+		<!--Rview Box -->
+
+        <div id="reviewBox" style="display: none;">
+            <input
+                id="commentInput"
+                placeholder="Add your review..."
+            >
+            <button onclick="addReview()">
+                Post
+            </button>
+
+        </div>
+		
+		 <script src="script.js"></script>
+		 
+		 <a href="order.html" >
+		 <button>
+					<h6> < Back  </h6>
+					</button>
+		 
+</body>
+</html>
